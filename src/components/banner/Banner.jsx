@@ -8,10 +8,15 @@ const Banner = () => {
             backgroundPosition: 'center',
             height:'400px'
           }}
-          className="w-full ">
-            <h1 className=''>Bid on Unique Items from Around the World</h1>
-            <p>Discover rare collectibles, luxury goods, and vintage treasures in our curated auctions</p>
-            <button>Explore Auctions</button>
+          className="w-full flex flex-col justify-center items-start ">
+           
+        <div className='p-2 m-5'>
+        <h1 className='text-[#FFFFFF] font-bold  text-2xl '>Bid on Unique Items from <br /> Around  the World</h1>
+          
+          <p className='text-[#FFFFFF] py-2'>Discover rare collectibles, luxury goods, and vintage treasures <br /> in our curated auctions</p>
+          <button className='btn rounded-4xl'>Explore Auctions</button>
+        
+        </div>
            
         </div>
     );
