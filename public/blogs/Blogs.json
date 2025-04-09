@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "title": "Vintage Leica M3 Camera",
+      "description": "A classic antique pocket watch in working condition with intricate engravings.",
+      "currentBidPrice": 7500.50,
+      "timeLeft": "1d 2h 35m",
+      "bidsCount": 8,
+      "image": "https://i.ibb.co.com/zW8KT0WQ/Bid1-min.png"
+    },
+    {
+      "id": 2,
+      "title": "1965 Gibson SG Standard Electric Guitar",
+      "description": "First edition of a popular superhero comic book, well-preserved.",
+      "currentBidPrice": 1500.00,
+      "timeLeft": " 15h 20m",
+      "bidsCount": 15,
+      "image": "https://i.ibb.co.com/d4RfD78r/Bid2-min.png"
+    },
+    {
+      "id": 3,
+      "title": "Original Apple Macintosh 128K (1984)",
+      "description": "High-fidelity headphones with active noise cancelling and Bluetooth 5.0.",
+      "currentBidPrice": 10020.00,
+      "timeLeft": "1d 4h",
+      "bidsCount": 22,
+      "image": "https://i.ibb.co.com/Vcmh9pqz/Bid3-min.png"
+    },
+    {
+      "id": 4,
+      "title": "Rolex Submariner 16610",
+      "description": "Powerful laptop with NVIDIA graphics and 16GB RAM, great for gaming or work.",
+      "currentBidPrice": 8999.99,
+      "timeLeft": "3d 2h",
+      "bidsCount": 35,
+      "image": "https://i.ibb.co.com/S1H18nL/Bid4-min.png"
+    },
+    {
+      "id": 5,
+      "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+      "description": "Authentic jersey signed by a famous player, includes certificate of authenticity.",
+      "currentBidPrice": 5310.00,
+      "timeLeft": "18h 50m",
+      "bidsCount": 12,
+      "image": "https://i.ibb.co.com/1Y9gj6N4/Bid6-min.png"
+    },
+    {
+      "id": 6,
+      "title": "Mid-Century Modern Eames Lounge Chair",
+      "description": "Elegant chess set made from mahogany and maple, perfect for collectors.",
+      "currentBidPrice": 5260.75,
+      "timeLeft": "2d 9h 15m",
+      "bidsCount": 9,
+      "image": "https://i.ibb.co.com/M5sNy2xQ/Bid5-min.png"
+    },
+    {
+        "id": 7,
+        "title": "Banksy Original Screen Print",
+        "description": "Elegant chess set made from mahogany and maple, perfect for collectors.",
+        "currentBidPrice": 7860.75,
+        "timeLeft": "19h 15m",
+        "bidsCount": 9,
+        "image": "https://i.ibb.co.com/cKZBcRrq/Bid7-min.png"
+      }
+  ]
+  
