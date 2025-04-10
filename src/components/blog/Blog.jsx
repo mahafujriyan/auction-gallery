@@ -1,13 +1,14 @@
-import React from 'react';
-import { CiHeart } from "react-icons/ci";
-const Blog = ({blog}) => {
-//    console.log(blog.image)
+import React, { } from 'react';
+
+ import { IoIosHeart } from "react-icons/io";
+const Blog = ({blog,handleFavorite,enable }) => {
+
     return (
        
          
           
    
-    <tbody className='border-b-2'>
+    <tbody className='border-2 rounded-xl'>
       {/* row 1 */}
       <tr >
        
@@ -25,14 +26,23 @@ const Blog = ({blog}) => {
           </div>
         </td>
         <td>
-        {blog.currentBidPrice}
+        $ {blog.currentBidPrice}
           
           
         </td>
         <td>{blog.timeLeft}</td>
         <th>
-          <button className="btn text-2xl btn-ghost btn-xs">
-          <CiHeart />
+          <button onClick={()=>handleFavorite(blog)}
+          disabled={enable.includes(blog.id)}
+          className={`text-2xl ${
+    enable.includes(blog.id)
+      ? 'cursor-not-allowed text-red-500'
+      : 'btn-ghost hover:text-yellow-500'
+  }`} 
+          >
+           
+      <IoIosHeart />
+       
           </button>
         </th>
       </tr>

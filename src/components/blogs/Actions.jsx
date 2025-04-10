@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../blog/Blog';
 
-const Actions = () => {
+const Actions = ({handleFavorite,enable}) => {
     const[blogs,setBlogs]=useState([])
 
     useEffect(()=>{
@@ -9,17 +9,17 @@ const Actions = () => {
         .then(res=>res.json())
         .then(data=>setBlogs(data))
     },[])
-    console.log(blogs)
+ 
     return (
         <div >
         
         <div className="all-blogs">
            
                       
-        <div className="overflow-x-auto m-3 bg-white rounded-2xl ">
+        <div className=" m-3 bg-white rounded-2xl ">
          <table className="table">
          <thead>
-      <tr>
+      <tr className='border-2 p-2'>
         
         <th>Items</th>
         <th>Current Bid</th>
@@ -28,7 +28,7 @@ const Actions = () => {
       </tr>
     </thead>
             { 
-            blogs.map((blog)=><Blog key={blog.id} blog={blog}></Blog>)
+            blogs.map((blog)=><Blog key={blog.id} blog={blog} handleFavorite={handleFavorite} enable={enable}></Blog>)
             }
 
             </table>
