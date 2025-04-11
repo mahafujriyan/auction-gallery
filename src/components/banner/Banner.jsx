@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <div  style={{
-            backgroundImage: "url('/src/assets/Banner-min.jpg')",
+            backgroundImage: "url('/assets/Banner-min.jpg')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             height:'400px'

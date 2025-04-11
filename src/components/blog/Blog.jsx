@@ -1,23 +1,17 @@
-import React, { } from 'react';
+import React from 'react';
 
  import { IoIosHeart } from "react-icons/io";
 const Blog = ({blog,handleFavorite,enable }) => {
 
     return (
+      <tr className='border-2 p-2'  >
        
-         
-          
-   
-    <tbody className='border-2 rounded-xl'>
-      {/* row 1 */}
-      <tr >
-       
-        <td>
+        <td >
           <div className="flex items-center gap-3">
             
              
             <div >
-                <img className='object-cover w-[96px] h-[96px]' src={blog.image} alt="change" />
+                <img className='object-cover w-[96px] h-[96px] ' src={blog.image} alt={blog.title} />
             </div>
             
               <div className="font-semibold m-2">{blog.title}</div>
@@ -50,7 +44,7 @@ const Blog = ({blog,handleFavorite,enable }) => {
       
      
      
-    </tbody>
+ 
   
 
 

@@ -7,7 +7,7 @@ const Favorite = ({item,onRemove}) => {
         <div>
 
            
-            <div className='grid grid-cols-3 gap-3 border-2 rounded-2xl m-2'>
+            <div className='grid grid-cols-3 gap-3 border-2 rounded-2xl m-2  '>
                 <div>
                     <img className='object-cover p-2 ' src={item.image} alt="" />
 
@@ -17,7 +17,7 @@ const Favorite = ({item,onRemove}) => {
                     {item.title}
 
                      </h1>
-                    <ul className='flex gap-5'>
+                    <ul className='flex gap-2'>
                          <li>${item.currentBidPrice}</li>
                          <li>Bids:{item.bidsCount}</li>
                      </ul>

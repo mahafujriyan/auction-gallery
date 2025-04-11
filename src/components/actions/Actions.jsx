@@ -5,7 +5,7 @@ const Actions = ({handleFavorite,enable}) => {
     const[blogs,setBlogs]=useState([])
 
     useEffect(()=>{
-        fetch("/public/blogs/blogs.json")
+        fetch("/blogs/blogs.json")
         .then(res=>res.json())
         .then(data=>setBlogs(data))
     },[])
@@ -27,10 +27,11 @@ const Actions = ({handleFavorite,enable}) => {
         <th> Bid Now</th>
       </tr>
     </thead>
+    <tbody >
             { 
             blogs.map((blog)=><Blog key={blog.id} blog={blog} handleFavorite={handleFavorite} enable={enable}></Blog>)
             }
-
+</tbody>
             </table>
             </div>
 

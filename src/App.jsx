@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import './App.css'
 import Banner from './components/banner/Banner'
-import Actions from './components/blogs/Actions'
+import Actions from './components/actions/Actions'
 
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
@@ -17,7 +17,8 @@ function App() {
     if (!favorite.some(item => item.id === blog.id)) {
       setFavorite([...favorite, blog]);
       setEnable(prev=>[...prev,blog.id])
-      toast.success('Items has been added to favorite! ')
+       toast.success('Items has been added to favorite! ')
+      
     }
     
       }
